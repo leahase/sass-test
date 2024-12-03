@@ -1,20 +1,17 @@
-nav {
-  background-color: red;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  text-decoration: none;
-  color: blue;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 5 |  @use 'components/footer';
+ *   |  ^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss/style.scss 5:2  root stylesheet */
 
-body {
-  background-color: rgb(236, 212, 212);
-  font-family: Arial, sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502   @use 'components/footer';\a   \2502   ^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 5:2  root stylesheet";
 }
-
-/*# sourceMappingURL=style.css.map */
