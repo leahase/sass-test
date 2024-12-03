@@ -1,8 +1,7 @@
 .project-card {
     background-color: #e49c9c;
     border-radius: 0px;
-    object-fit: cover;
-    overflow: hidden;
+    
         img {
             height: auto;
             width: 100%;
@@ -13,12 +12,62 @@
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat( 9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    width: 1110px;
+    height: 1960px;
     gap: 5px;
-    
-  
+    max-width: 100%;
+    width: 100%;
   }
+
+// grid-cards 1-12
+  .project-card1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card5 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card6 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card7 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card8 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card10 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card11 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+  .project-card12 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+  }
+
+  
 
   main {
     display: flex;
