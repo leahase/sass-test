@@ -2,9 +2,11 @@
     background-color: #e49c9c;
     border-radius: 0px;
     object-fit: cover;
+    overflow: hidden;
         img {
             height: auto;
             width: 100%;
+            object-fit: cover;
         }
     } 
 
@@ -20,6 +22,8 @@
 
   main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    max-width: 100vh;
   }

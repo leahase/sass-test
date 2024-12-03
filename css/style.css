@@ -2,27 +2,38 @@ nav {
   display: flex;
   background-color: rgb(220, 175, 175);
   justify-content: center;
+  padding: 10px 0;
 }
 nav ul {
   list-style: none;
+  padding: 0;
+  display: flex;
 }
 nav ul li {
   display: inline-block;
   text-decoration: none;
+  margin: 0 15px;
 }
 nav ul li a {
   text-decoration: none;
   color: blue;
 }
 
+header {
+  padding: 15px 0;
+  width: 100%;
+}
+
 .project-card {
   background-color: #e49c9c;
   border-radius: 0px;
   object-fit: cover;
+  overflow: hidden;
 }
 .project-card img {
   height: auto;
   width: 100%;
+  object-fit: cover;
 }
 
 .projects-grid {
@@ -34,19 +45,21 @@ nav ul li a {
 
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  max-width: 100vh;
 }
 
 body {
   background-color: rgb(238, 177, 177);
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  height: 100vh;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #fafafa;
 }
 
