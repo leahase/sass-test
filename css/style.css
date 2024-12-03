@@ -1,17 +1,21 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 |  @use 'components/footer';
- *   |  ^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss/style.scss 5:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502   @use 'components/footer';\a   \2502   ^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 5:2  root stylesheet";
+nav {
+  background-color: rgb(220, 175, 175);
 }
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+body {
+  background-color: rgb(238, 177, 177);
+  font-family: Arial, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
