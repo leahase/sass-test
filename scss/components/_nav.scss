@@ -1,5 +1,7 @@
 nav {
+    display: flex;
     background-color: rgb(220, 175, 175);
+    justify-content: center;
     ul {
       list-style: none;
       li {

@@ -2,11 +2,18 @@
  @use 'components/header';
  @use 'components/contact';
  @use 'components/projects';
-
-
+ @use 'components/main.index';
 
 
 body {
   background-color: rgb(238, 177, 177);
   font-family: Arial, sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    background-color: #fafafa; 
+  }
+

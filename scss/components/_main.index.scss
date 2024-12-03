@@ -1,0 +1,25 @@
+.project-card {
+    background-color: #e49c9c;
+    border-radius: 0px;
+    object-fit: cover;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    } 
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    
+  
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
