@@ -1,12 +1,12 @@
 nav {
-    background-color: $primary-color;
+    background-color: red;
     ul {
       list-style: none;
       li {
         display: inline-block;
         a {
           text-decoration: none;
-          color: $secondary-color;
+          color: blue;
         }
       }
     }
