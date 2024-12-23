@@ -12,13 +12,17 @@
     .container-stars{
       display: flex;
       width: 1110px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
+      
     }
     .heading-stars{
-      
+      display: block;
       width: 635px;
       height: 191px;
      
+    }
+    h1 {
+      font-size: 40px;
     }
     h3{
       color: #4A4FF2;
@@ -28,6 +32,8 @@
     }
     .progress-right {
       align-content: end;
+      opacity: 60%;
+     
     }
 
 
