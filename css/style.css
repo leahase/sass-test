@@ -54,6 +54,7 @@ body {
   flex-direction: row;
   gap: 100px;
   width: 1110px;
+  padding-top: 0;
 }
 .flex-contact .rubrik {
   height: 174px;
@@ -103,6 +104,35 @@ label {
   height: auto;
   width: 100%;
   object-fit: cover;
+}
+
+.container-stars {
+  display: flex;
+  width: 1110px;
+  margin-bottom: 100px;
+}
+
+.heading-stars {
+  display: block;
+  width: 635px;
+  height: 191px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  color: #4A4FF2;
+}
+
+.product-designer {
+  color: #4A4FF2;
+}
+
+.progress-right {
+  align-content: end;
+  opacity: 60%;
 }
 
 .projects-grid {
@@ -188,8 +218,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 1109px;
-  margin-left: 70px;
+  margin-left: 30px;
   padding: 10px 20px;
+  margin-top: 80px;
 }
 footer ul {
   list-style: none;
