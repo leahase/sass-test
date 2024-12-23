@@ -1,5 +1,5 @@
 .contact-form {
-    background-color: rgb(250, 241, 241);
+    background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
     width: 475px;
@@ -15,14 +15,23 @@
             .rubrik{
                 height: 174px;
                 max-width: 475px;
-                border: 2px solid black;
-                padding: 20px;
-        
-               
+                font-family:  "Mulish", serif;
             }
+            .text{
+                height: 56px;
+                width: 445px;
+                font-size: 16px;
+                color: #111111;
+                font-family:  "Mulish", serif;
+            }
+        
+}
+h2 {
+    font-size: 40px;
+
 }
 input, textarea {
-    
+    height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .submit-btn{
