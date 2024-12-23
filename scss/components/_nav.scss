@@ -4,23 +4,35 @@ nav {
     display: flex;
     background-color: rgb(242, 224, 224);
     justify-content: space-between;
-    padding: 10px 0;
+    align-items: center;
+    width: 1109px;
+    margin-left: 70px;
+    padding: 10px 20px;
+
     ul {
       list-style: none;
       padding: 0;
-      align-items: flex-end;
+      display: flex;
+      
       li {
-        display: inline-block;
-        text-decoration: none;
         margin: 0 15px;
-        
+        align-items: center;
+    
         a {
           text-decoration: none;
-          color: blue;
+          color: rgb(0, 0, 0);
+          
         }
       }
     }
   }
   .logo {
     align-self: flex-start;
-  }
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    font-size: 1.5rem;
+
+    }
+  
