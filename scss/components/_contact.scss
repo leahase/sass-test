@@ -16,6 +16,8 @@ body {
     display: flex;
     flex-direction: row;
     gap: 100px;
+    width: 1110px;
+
             .rubrik{
                 height: 174px;
                 max-width: 475px;
@@ -27,6 +29,7 @@ body {
                 font-size: 16px;
                 color: #111111;
                 font-family:  "Mulish", serif;
+                opacity: 80%;
             }
         
 }
@@ -37,12 +40,21 @@ h2 {
 input, textarea {
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+label {
+    opacity: 60%;
 }
 .submit-btn{
     background-color:#4A4FF2;
     color: white;
     width: 125px;
     height: 50px;
+    border: none;
 
 
+}
+.map {
+    width: 1110px;
+    height: 570px;
 }
