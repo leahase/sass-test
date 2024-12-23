@@ -1,31 +1,44 @@
 nav {
   display: flex;
-  background-color: rgb(242, 224, 224);
+  background-color: rgb(255, 255, 255);
   justify-content: space-between;
-  padding: 10px 0;
+  align-items: center;
+  width: 1109px;
+  margin-left: 70px;
+  padding: 10px 20px;
 }
 nav ul {
   list-style: none;
   padding: 0;
-  align-items: flex-end;
+  display: flex;
 }
 nav ul li {
-  display: inline-block;
-  text-decoration: none;
   margin: 0 15px;
+  align-items: center;
 }
 nav ul li a {
   text-decoration: none;
-  color: blue;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
 }
 
 .logo {
   align-self: flex-start;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  font-size: 1.5rem;
+  padding: 0;
 }
 
 header {
   padding: 15px 0;
   width: 100%;
+}
+
+body {
+  max-width: 1360px;
 }
 
 .contact-form {
@@ -40,6 +53,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 100px;
+  width: 1110px;
 }
 .flex-contact .rubrik {
   height: 174px;
@@ -52,6 +66,7 @@ header {
   font-size: 16px;
   color: #111111;
   font-family: "Mulish", serif;
+  opacity: 80%;
 }
 
 h2 {
@@ -63,11 +78,21 @@ input, textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+label {
+  opacity: 60%;
+}
+
 .submit-btn {
   background-color: #4A4FF2;
   color: white;
   width: 125px;
   height: 50px;
+  border: none;
+}
+
+.map {
+  width: 1110px;
+  height: 570px;
 }
 
 .project-card {
@@ -157,8 +182,42 @@ main {
   max-width: 100vh;
 }
 
+footer {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+  width: 1109px;
+  margin-left: 70px;
+  padding: 10px 20px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+footer ul li {
+  margin: 0 15px;
+  align-items: center;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.logo {
+  align-self: flex-start;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
 body {
-  background-color: rgb(238, 177, 177);
+  background-color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
