@@ -8,6 +8,27 @@
             object-fit: cover;
         }
     } 
+    // section heading shooting-stars
+    .container-stars{
+      display: flex;
+      width: 1110px;
+      margin-bottom: 50px;
+    }
+    .heading-stars{
+      
+      width: 635px;
+      height: 191px;
+     
+    }
+    h3{
+      color: #4A4FF2;
+    }
+    .product-designer{
+      color: #4A4FF2;
+    }
+    .progress-right {
+      align-content: end;
+    }
 
 
 .projects-grid {
