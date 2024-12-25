@@ -116,6 +116,7 @@ label {
   display: block;
   width: 635px;
   height: 191px;
+  position: relative;
 }
 
 h1 {
@@ -133,6 +134,9 @@ h3 {
 .progress-right {
   align-content: end;
   opacity: 60%;
+  position: relative;
+  left: 90px;
+  top: 70px;
 }
 
 .projects-grid {
@@ -141,7 +145,7 @@ h3 {
   grid-template-rows: repeat(32, 1fr);
   width: 1110px;
   height: 1960px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .project-card1 {
@@ -210,6 +214,30 @@ main {
   justify-content: flex-start;
   align-items: center;
   max-width: 100vh;
+}
+
+.work-hard-container {
+  display: flex;
+  max-width: 100%;
+  width: 1079px;
+  height: 106px;
+  margin: 20px;
+  font-family: "Mulish", serif;
+}
+.work-hard-container .work-hard-text {
+  max-width: 40vw;
+  font-size: 28px;
+  font-weight: 600;
+}
+.work-hard-container .work-hard-list {
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  font-size: 18px;
+  opacity: 60%;
+}
+.work-hard-container .work-hard-list li {
+  list-style: none;
 }
 
 footer {
