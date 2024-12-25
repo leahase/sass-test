@@ -123,6 +123,7 @@
     height: 106px;
     margin: 20px;
     font-family:  "Mulish", serif;
+    margin-bottom: 80px;
     
 
 
@@ -130,6 +131,7 @@
         max-width: 40vw;
         font-size: 28px;
         font-weight: 600;
+        
         
       }
       .work-hard-list {
@@ -143,4 +145,12 @@
             
           }
       }
+}
+.container-awards{
+  display: flex;
+  flex-direction: column;
+  li {
+    list-style: none;
+    
+  }
 }
