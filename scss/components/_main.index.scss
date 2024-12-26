@@ -149,8 +149,17 @@
 .container-awards{
   display: flex;
   flex-direction: column;
-  li {
-    list-style: none;
-    
-  }
+    .container-awards1 {
+      border: 1px solid whitesmoke;
+        .award-content{
+          display: flex;
+          flex-direction: column;
+            .award-item {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              
+            }
+        }
+    }
 }
