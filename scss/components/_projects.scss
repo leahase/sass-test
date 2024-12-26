@@ -1,0 +1,37 @@
+.container-difference{
+    display: flex;
+    justify-content:left;
+    font-family:  "Mulish", serif;
+    .container-heading-text{
+        width: 635px;
+        font-family:  "Mulish", serif;
+    }
+    .paragraph-differences{
+        opacity: 80%;
+    }
+}
+
+.list-projects{
+    display: flex;
+    font-size: 18px;
+    font-style: bold;
+    width: 335px;
+    height: 343px;
+    position: relative;
+    top: 20px;
+    font-family:  "Mulish", serif;
+    
+    li{
+        list-style: none;
+        
+    }
+    .heading {
+        opacity: 50%;
+        margin-right: 10px;
+        
+
+    }
+    .text {
+        
+    }
+}
