@@ -48,6 +48,8 @@ body {
   width: 475px;
   height: 291px;
   gap: 5px;
+  position: relative;
+  top: 40px;
 }
 
 .flex-contact {
@@ -56,6 +58,7 @@ body {
   gap: 100px;
   width: 1110px;
   padding-top: 0;
+  padding-bottom: 50px;
 }
 .flex-contact .rubrik {
   height: 174px;
@@ -98,6 +101,7 @@ label {
 .map {
   width: 1110px;
   height: 570px;
+  margin-top: 30px;
 }
 
 .container-difference {
@@ -106,6 +110,7 @@ label {
   font-family: "Mulish", serif;
   position: relative;
   right: 50px;
+  margin-bottom: 30px;
 }
 .container-difference .container-heading-text {
   width: 635px;
@@ -118,6 +123,7 @@ label {
 }
 .container-difference .paragraph-differences2 .paragraph-differences {
   opacity: 80%;
+  line-height: 1.6;
 }
 
 .list-projects {
@@ -134,14 +140,19 @@ label {
 .list-projects li {
   list-style: none;
   padding: 7px;
+  display: flex;
 }
 .list-projects .heading {
   opacity: 50%;
-  margin-right: 10px;
-  padding-right: 40px;
+  text-align: left;
+  margin-right: 30px;
 }
 .list-projects .text {
+  display: flex;
   gap: 20px;
+  text-align: right;
+  padding-right: 20px;
+  justify-content: flex-end;
 }
 
 hr {
@@ -155,7 +166,7 @@ hr {
   font-family: "Mulish", serif;
   width: 1109px;
   height: 93px;
-  line-height: 1.3;
+  line-height: 1.6;
 }
 
 .container-three {
@@ -329,7 +340,7 @@ main {
   left: 50%;
   font-weight: 400;
   font-size: 18px;
-  top: 20px;
+  top: 15px;
 }
 .container-awards .container-awards1 .award-content .award-item .award-item-details {
   margin-left: 30px;

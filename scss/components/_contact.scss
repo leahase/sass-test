@@ -9,6 +9,8 @@ body {
     width: 475px;
     height: 291px;
     gap: 5px;
+    position: relative;
+    top: 40px;
     
 
         
@@ -20,6 +22,7 @@ body {
     gap: 100px;
     width: 1110px;
     padding-top: 0;
+    padding-bottom: 50px;
 
             .rubrik{
                 height: 174px;
@@ -64,4 +67,5 @@ label {
 .map {
     width: 1110px;
     height: 570px;
+    margin-top: 30px;
 }
