@@ -3,11 +3,13 @@ body {
 
 }
 .contact-form {
-    background-color: rgb(245, 245, 245);
+    background-color: #fafafa;
     display: flex;
     flex-direction: column;
     width: 475px;
-    height: 291px;;
+    height: 291px;
+    gap: 5px;
+    
 
         
 }
@@ -41,6 +43,10 @@ h2 {
 input, textarea {
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    opacity: 40px;
+    border-color: rgb(225, 223, 223) #fafafa #fafafa #fafafa;
+    background-color: #fafafa;
+   
     
 }
 label {
