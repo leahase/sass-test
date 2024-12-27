@@ -36,20 +36,29 @@
     li{
         list-style: none;
         padding: 7px;
+        display: flex;
+        
         
     }
     .heading {
         opacity: 50%;
-        margin-right: 10px;
-       padding-right: 40px;
-
+       text-align: left;
+       margin-right: 30px;
+       
+        
+    }
+    .text {
+        display: flex;
+        gap: 20px;
+        text-align: right;
+        padding-right: 20px;
+        justify-content: flex-end;
+        
         
 
     }
-    .text {
-        gap: 20px;
-    }
 }
+
 hr{
     opacity: 40%;
 }
