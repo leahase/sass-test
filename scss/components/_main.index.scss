@@ -154,6 +154,7 @@
         .award-heading {
           color: black;
           position: absolute;
+          font-size: 22px;
         }
         .award-content{
           display: flex;
@@ -168,10 +169,12 @@
                   color: black;
                   position: relative;
                   left: 50%;
+                  font-weight: 400;
+                  font-size: 18px;
                 }
                 .award-item-details{
                   
-                  text-align: right;
+                  margin-left: 30px;
                   position: relative;
                   left: 20%;
                   width: 190px;
